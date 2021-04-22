@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "obamium_block",
+	"ingredients": [
+		{
+			"item": "hyperstest:obamium_block"
+		}
+	],
+	"result": {
+		"item": "hyperstest:obamium_ingot",
+		"count": 9
+	}
+}

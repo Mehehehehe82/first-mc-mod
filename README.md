@@ -3,4 +3,4 @@
 adds obamium block and obamium ingot
 
 ## Known issues
-- Unable to craft obamium block
+- Custom crafting recipies aren't loaded (see [this folder](https://github.com/Mehehehehe82/first-mc-mod/blob/master/src/main/resources/data/hyperstest/recipies/))
