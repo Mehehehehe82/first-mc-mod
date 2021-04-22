@@ -20,6 +20,11 @@ public class ExampleMod implements ModInitializer {
 		.group(ItemGroup.MISC)
 	);
 	
+	public static final Item OBAMIUM_INGOT = new Item(
+		new Item.Settings()
+		.group(ItemGroup.MISC)
+	);
+
 	public static final Block OBAMIUM_BLOCK = new Block(
 		FabricBlockSettings
 		.of(Material.STONE)
@@ -39,6 +44,12 @@ public class ExampleMod implements ModInitializer {
 			new Identifier(
 				MOD_ID,"test_item"
 			), TEST_ITEM
+		);
+		Registry.register(
+			Registry.ITEM,
+			new Identifier(
+				MOD_ID,"obamium_ingot"
+			), OBAMIUM_INGOT
 		);
 		Registry.register(
 			Registry.BLOCK,

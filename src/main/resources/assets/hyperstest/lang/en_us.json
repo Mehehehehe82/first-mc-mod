@@ -1,4 +1,5 @@
 {
+	"item.hyperstest.test_item": "Test item",
 	"block.hyperstest.obamium_block": "Block of Obamium",
-	"item.hyperstest.test_item": "Test item"
+	"item.hyperstest.obamium_ingot": "Obamium Ingot"
 }
