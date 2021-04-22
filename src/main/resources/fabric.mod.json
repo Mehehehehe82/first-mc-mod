@@ -1,29 +1,30 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "hyperstest",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Hyperboid's Test mod",
+  "description": "Adds an item of Suited Llama's face.",
   "authors": [
-    "Me!"
+    "Hyperboid",
+	"SuitedLlama (sorta)"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "",
+    "sources": "https://github.com/Mehehehehe82/first-mc-mod"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/hyperstest/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "me.hyperboid.testmod.ExampleMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "hyperstest.mixins.json"
   ],
 
   "depends": {
