@@ -47,7 +47,7 @@ public class ExampleMod implements ModInitializer {
 	// TODO: Change to -64 for 1.17
 	.decorate(Decorator.RANGE.configure(new RangeDecoratorConfig(0, 0, 64)))
 	.spreadHorizontally()
-	.repeat(60)
+	.repeat(100)
 	;
 
 	@Override
